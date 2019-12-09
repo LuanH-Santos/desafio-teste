@@ -11,3 +11,8 @@ Funcionalidade: Pesquisa simples
         Quando seleciono algum resultado contendo "g1.globo"
         Entao Espero encontrar o Copyright da globo
 
+    Cenario: Utilizar o teclado virtual para digitar
+        Dado abri o teclado virtual disponibilizado
+        E escrevo "Thanos"
+        E clico na manopla
+        Entao espero que diminua a quantidade aproximada
