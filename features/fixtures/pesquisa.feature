@@ -16,3 +16,8 @@ Funcionalidade: Pesquisa simples
         E escrevo "Thanos"
         E clico na manopla
         Entao espero que diminua a quantidade aproximada
+
+    Cenario: Login com sucesso
+        Dado que selecionei para fazer o Login
+        E insiro dados validos
+        Entao verificar se meu dado esta na pagina
