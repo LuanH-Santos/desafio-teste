@@ -26,3 +26,8 @@ Funcionalidade: Pesquisa simples
         Dado que entrei na busca por imagem
         E selecionei uma imagem para upload
         Entao espero encontrar um resultado relacionado
+
+    Cenario: Consultar o gmail
+        Dado feito o login com sucesso
+        E clico em gmail
+        Entao espero encontrar "Caixa de entrada"
