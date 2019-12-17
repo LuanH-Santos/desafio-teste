@@ -8,7 +8,7 @@ Funcionalidade: Pesquisa simples
 
     Cenario: Realizar uma pesquisa com resultado esperado
         Dado que eu pesquiso "G1"
-        Quando seleciono algum resultado contendo "g1.globo"
+        Quando seleciono algum resultado contendo g1.globo
         Entao Espero encontrar o Copyright da globo
 
     # Cenario: Utilizar o teclado virtual para digitar

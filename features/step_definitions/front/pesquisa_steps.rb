@@ -7,13 +7,13 @@ Dado("que eu pesquiso {string}") do |string|
   find("input[title = 'Pesquisar']").native.send_keys("enter".to_sym)
 end
 
-Quando("seleciono algum resultado contendo {string}") do |string|
-  assert_text(string)
-  first(string).click
+Quando("seleciono algum resultado contendo g1.globo") do
+    assert_text("G1 - O portal de notícias da Globo")
+    click_on("G1 - O portal de notícias da Globo")
 end
 
 Entao("Espero encontrar o Copyright da globo") do
-  pending # Write code here that turns the phrase above into concrete actions
+  assert_text("© Copyright 2000-2019 Globo Comunicação e Participações S.A.")
 end
 
 Dado("abri o teclado virtual disponibilizado") do
